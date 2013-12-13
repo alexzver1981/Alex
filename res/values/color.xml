@@ -2,5 +2,6 @@
 <resources>
     <color name="wait">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="fff">#010000</color>
     
 </resources>

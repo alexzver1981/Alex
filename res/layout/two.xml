@@ -84,11 +84,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/imageView1"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/imageView1"
                 android:text="ООО &quot;Связной&quot;, г. Москва"
                 android:textColor="@color/wait"
                 android:textSize="10sp" />
+
         </RelativeLayout>
     </LinearLayout>
 
@@ -103,7 +105,9 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/orangr"
         android:text="Задать вопрос"
-        android:textColor="@color/wait" />
+        android:textColor="@color/wait"
+        android:onClick="onClickSend"
+        android:textColorHint="@color/black" />
 
     <TextView
         android:id="@+id/textView7"
