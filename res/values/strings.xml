@@ -7,5 +7,11 @@
     <string name="doclad">Доклад</string>
     <string name="nullText"></string>
     <string name="Text"> вопрос первым</string>
+    <string name="effekt_buisness">Эффективный бизнес \nинтернет-магазинов \nв России</string>
+    <string name="doklad">Доклад</string>
+    <string name="zal_vostok">Зал &quot;Восток&quot;, 10:00 - 11:00</string>
+    <string name="artemov">Артёмов \n Василий Васильевич</string>
+    <string name="svaznoi">ООО \"Связной\", г. Москва</string>
+    <string name="vopros">В настоящий момент \n вопросов нет. \n Задайте вопрос первым.</string>
 
 </resources>
