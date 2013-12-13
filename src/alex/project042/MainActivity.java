@@ -52,9 +52,11 @@ public class MainActivity extends Activity {
 		protected void onPreExecute() {
 			super.onPreExecute();
 			
-			Log.d("Alex", "Begin");
+			Log.d("Alex", "Begin git");
 			
 			tv.setText("Begin");
+			
+			Log.d("Alex", "Begin");
 			
 			btStart.setEnabled(false);
 		}
