@@ -1,14 +1,13 @@
 package alex.project001;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
-import android.widget.Toast;
 
 public class TwoActivity extends Activity implements OnEditorActionListener{
 
@@ -20,6 +19,7 @@ public class TwoActivity extends Activity implements OnEditorActionListener{
 		setContentView(R.layout.activity_two);
 		
 		et = (EditText) findViewById(R.id.etQuestion);
+		et.setOnEditorActionListener(this);
 	}
 
 	@Override
@@ -27,9 +27,10 @@ public class TwoActivity extends Activity implements OnEditorActionListener{
 		
 		if(actionId == EditorInfo.IME_ACTION_SEND){
 			
-			
-			Toast.makeText(getApplicationContext(), "send", Toast.LENGTH_LONG).show();
-			
+			Intent intent = new Intent();
+			intent.putExtra("text", et.getText().toString());
+			setResult(RESULT_OK, intent);
+			finish();
 			return true;
 		}
 		

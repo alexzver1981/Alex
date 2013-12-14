@@ -49,7 +49,7 @@ public final class R {
         public static final int textView3=0x7f090007;
         public static final int textView4=0x7f090009;
         public static final int textView6=0x7f09000a;
-        public static final int textView7=0x7f09000b;
+        public static final int tvTextOut=0x7f09000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
