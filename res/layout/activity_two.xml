@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/orangr"
+        android:drawableLeft="@drawable/rect1"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:height="48dp"
+        android:text="@string/question"
+        android:textColor="@color/wait"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:height="48dp"
+        android:hint="@string/input_text"
+        android:imeOptions="actionSend"
+        android:inputType="textImeMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
