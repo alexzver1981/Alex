@@ -12,7 +12,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/orangr"
-        android:drawableLeft="@drawable/rect1"
+        android:drawableLeft="@drawable/rect"
         android:drawablePadding="4dp"
         android:gravity="center_vertical"
         android:height="48dp"
