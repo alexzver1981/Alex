@@ -17,6 +17,7 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+<<<<<<< HEAD
     <style name="myButton" parent="android:Widget.Holo.Light.Button">
         <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
         <item name="android:layout_marginBottom">16dp</item>
@@ -25,4 +26,6 @@
         <item name="android:textColor">@color/wait</item>
         <item name="android:textStyle">bold</item>
     </style>
+=======
+>>>>>>> 7a6220d7eeeec5e55d7843261fb4fd1dabafb8e5
 </resources>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="alex.project001"
+=======
+    package="alex.project042"
+>>>>>>> 7a6220d7eeeec5e55d7843261fb4fd1dabafb8e5
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +18,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name="alex.project001.MainActivity"
+=======
+            android:name="alex.project042.MainActivity"
+>>>>>>> 7a6220d7eeeec5e55d7843261fb4fd1dabafb8e5
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name="TwoActivity"></activity>
+=======
+>>>>>>> 7a6220d7eeeec5e55d7843261fb4fd1dabafb8e5
     </application>
 
 </manifest>

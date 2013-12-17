@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">HW001</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -16,5 +17,10 @@
     <string name="send_question">Задать вопрос</string>
     <string name="question">Вопрос</string>
     <string name="input_text">Введите текст</string>
+=======
+    <string name="app_name">L042_AsincTask_Cansel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+>>>>>>> 7a6220d7eeeec5e55d7843261fb4fd1dabafb8e5
 
 </resources>
