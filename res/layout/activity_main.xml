@@ -97,8 +97,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:minHeight="55dp"
         android:onClick="onClickSend"
-        android:text="@string/send_question" />
+        android:text="@string/send_question"
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/tvTextOut"
